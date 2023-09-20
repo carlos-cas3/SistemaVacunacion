@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package sistemavacunacion.entities;
 
-/**
- *
- * @author usuario
- */
 public class Paciente {
+    private String id;
+    private String estado;
+    
+    private Vacuna vacuna;
+    
     
 }

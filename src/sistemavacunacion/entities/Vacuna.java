@@ -1,13 +1,34 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package sistemavacunacion.entities;
 
-/**
- *
- * @author usuario
- */
 class Vacuna {
+    private String lote;
+    private String marca;
+    private String enfermedad;
+
+    public String getLote() {
+        return lote;
+    }
+
+    public void setLote(String lote) {
+        this.lote = lote;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+    public String getEnfermedad() {
+        return enfermedad;
+    }
+
+    public void setEnfermedad(String enfermedad) {
+        this.enfermedad = enfermedad;
+    }
     
+    
+            
 }
